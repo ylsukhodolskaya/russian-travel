@@ -1,4 +1,14 @@
 .footer__navigation {
   margin: 0;
   padding: 0;
+  font-size: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__navigation {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 16px;
+  }
 }

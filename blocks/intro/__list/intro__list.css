@@ -4,3 +4,14 @@
   list-style-type: none;
   max-width: 690px;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__list {
+    padding: 33px 0 88px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    padding: 33px 0 64px 0;
+  }

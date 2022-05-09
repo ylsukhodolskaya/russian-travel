@@ -7,3 +7,19 @@
   margin: 0;
   max-width: 690px;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__title {
+    width: minmax(690px, 720px);
+    padding: 88px 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    width: minmax(min-content, 719px);
+    font-size: 32px;
+    line-height: 35px;
+    padding: 64px 0 40px 0;
+  }
+}

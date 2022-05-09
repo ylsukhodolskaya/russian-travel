@@ -1,5 +1,23 @@
 .content {
   margin: 0 auto;
   padding: 0;
-  max-width: 92.5%;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 1279px) {
+  .content {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    max-width: 320px;
+  }
 }

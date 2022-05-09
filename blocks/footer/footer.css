@@ -5,3 +5,26 @@
   padding: 92px 0 24px 0;
   max-width: 1184px;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 88px 0 24px 0;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    padding: 64px 0 24px 16px;
+    flex-direction: column;
+    position: relative;
+    max-width: 288px;
+  }
+}

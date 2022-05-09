@@ -3,3 +3,22 @@
   align-self: flex-end;
   justify-self: flex-start;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__website {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    position: absolute;
+    left: 16px;
+  }
+}
